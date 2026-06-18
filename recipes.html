@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Медленно, но верно – Полезные рецепты | Здоровое питание</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo"><i class="fas fa-leaf"></i> Медленно, но верно</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="nutrition.html">Питание</a></li>
+            <li><a href="fitness.html">Активность</a></li>
+            <li><a href="mind.html">Психология</a></li>
+            <li><a href="recipes.html" class="active">Рецепты</a></li>
+        </ul>
+    </nav>
+
+    <section class="page">
+        <div class="container">
+            <h2 class="section-title">Полезные рецепты</h2>
+            <p class="subtitle">Готовим вкусно, быстро и с заботой о здоровье 🌿</p>
+
+            <div class="recipes-wrapper">
+                <div class="recipes-main">
+                    <!-- ========== ЗАВТРАК (15 новых + старые) ========== -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span><i class="fas fa-sun"></i> Завтрак</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </h3>
+                        <div class="recipe-grid">
+                            <!-- Старые 3 -->
+                            <a href="recipe-pages/quinoa-bowl.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/Бонао.png" alt="Боул с киноа"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Боул с киноа и авокадо</h3><p>Киноа, шпинат, авокадо, томаты черри и лимонная заправка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Боул с киноа" data-cal="480" data-protein="12" data-fat="22" data-carbs="55"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/green-smoothie.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/Смузи.png" alt="Зеленый смузи"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Зеленый смузи</h3><p>Шпинат, банан, яблоко, имбирь и миндальное молоко.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Зеленый смузи" data-cal="210" data-protein="5" data-fat="6" data-carbs="38"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/oat-pancake.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/Блин.png" alt="Овсяноблин"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Овсяноблин с ягодами</h3><p>Овсяные хлопья, яйцо, йогурт, свежие ягоды и капля меда.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Овсяноблин" data-cal="320" data-protein="18" data-fat="14" data-carbs="32"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <!-- 15 новых -->
+                            <a href="recipe-pages/omlet-veg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/omlet.jpg" alt="Омлет с овощами"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Омлет с овощами</h3><p>Яйца, помидоры, шпинат, сладкий перец – сытный и быстрый завтрак.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Омлет с овощами" data-cal="250" data-protein="18" data-fat="15" data-carbs="8"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/greek-yogurt-granola.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/granola.jpg" alt="Греческий йогурт с гранолой"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Греческий йогурт с гранолой</h3><p>Йогурт, гранола, мёд и ягоды – идеальное начало дня.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Греческий йогурт с гранолой" data-cal="300" data-protein="12" data-fat="10" data-carbs="35"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/avocado-toast-egg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/avocado-toast.jpg" alt="Тост с авокадо"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Тост с авокадо и яйцом пашот</h3><p>Цельнозерновой хлеб, авокадо, яйцо пашот и семена чиа.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Тост с авокадо" data-cal="280" data-protein="14" data-fat="18" data-carbs="20"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/oatmeal-banana-nuts.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/oatmeal-banana.jpg" alt="Овсянка с бананом"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Овсяная каша с бананом и орехами</h3><p>Овсяные хлопья, банан, грецкие орехи и корица.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Овсяная каша с бананом" data-cal="320" data-protein="10" data-fat="12" data-carbs="45"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/mango-smoothie-bowl.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/mango-bowl.jpg" alt="Смузи-боул с манго"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Смузи-боул с манго и киви</h3><p>Замороженное манго, банан, киви, кокосовая стружка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Смузи-боул с манго" data-cal="270" data-protein="6" data-fat="5" data-carbs="50"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/syrniki.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/syrniki.jpg" alt="Сырники"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Сырники из творога</h3><p>Творог, яйцо, мука, сметана – классика детства.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Сырники" data-cal="290" data-protein="20" data-fat="15" data-carbs="18"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/wholegrain-pancakes-cottage.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/pancakes.jpg" alt="Блинчики цельнозерновые"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Блинчики из цельнозерновой муки с творогом</h3><p>Мука, яйца, молоко, творог и ягоды.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Блинчики цельнозерновые" data-cal="310" data-protein="16" data-fat="14" data-carbs="30"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/scrambled-eggs-spinach.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/scrambled.jpg" alt="Яичница со шпинатом"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Яичница с помидорами и шпинатом</h3><p>Яйца, помидоры, шпинат, оливковое масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Яичница со шпинатом" data-cal="220" data-protein="16" data-fat="14" data-carbs="6"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/corn-porridge-pumpkin.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/corn-pumpkin.jpg" alt="Кукурузная каша с тыквой"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Каша кукурузная с тыквой</h3><p>Крупа, тыква, молоко, специи.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Кукурузная каша с тыквой" data-cal="240" data-protein="6" data-fat="4" data-carbs="48"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chia-pudding.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/chia.jpg" alt="Пудинг чиа"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Пудинг чиа с кокосовым молоком</h3><p>Семена чиа, кокосовое молоко, мёд, ягоды.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Пудинг чиа" data-cal="280" data-protein="8" data-fat="12" data-carbs="34"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/cottage-cheese-herbs.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/cottage-herbs.jpg" alt="Творог с зеленью"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Творожная масса с зеленью на хлебце</h3><p>Творог, укроп, петрушка, хлебец.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Творог с зеленью" data-cal="200" data-protein="18" data-fat="10" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/baked-apples-cottage.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/baked-apples.jpg" alt="Запечённые яблоки"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Запечённые яблоки с творогом</h3><p>Яблоки, творог, изюм, корица.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Запечённые яблоки" data-cal="210" data-protein="12" data-fat="6" data-carbs="28"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/green-smoothie-avocado.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/green-avocado.jpg" alt="Смузи зелёный"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Смузи зелёный с авокадо</h3><p>Авокадо, шпинат, банан, яблоко, вода.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Смузи зелёный с авокадо" data-cal="230" data-protein="6" data-fat="16" data-carbs="18"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/croutons-hummus-salmon.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/croutons-salmon.jpg" alt="Гренки с хумусом"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Гренки с хумусом и семгой</h3><p>Хлеб, хумус, слабосолёная семга, рукола.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Гренки с хумусом и семгой" data-cal="290" data-protein="16" data-fat="18" data-carbs="16"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/muesli-milk-berries.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/muesli.jpg" alt="Мюсли с молоком"><span class="recipe-badge">Завтрак</span></div>
+                                <div class="recipe-content"><h3>Мюсли с молоком и ягодами</h3><p>Мюсли, молоко, свежие ягоды.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Мюсли с молоком" data-cal="310" data-protein="10" data-fat="8" data-carbs="48"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ========== ОБЕД (15 новых + старые) ========== -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span><i class="fas fa-utensils"></i> Обед</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </h3>
+                        <div class="recipe-grid">
+                            <!-- Старые 3 -->
+                            <a href="recipe-pages/salmon-salad.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/СалатЛосось.png" alt="Салат с лососем"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Салат с лососем и киноа</h3><p>Запеченный лосось, микс салатов, огурец, киноа и соус терияки.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Салат с лососем" data-cal="560" data-protein="34" data-fat="28" data-carbs="38"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/lentil-soup.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/СупЧечевица.png" alt="Суп из чечевицы"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Суп из чечевицы</h3><p>Красная чечевица, морковь, томаты, специи и свежая зелень.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Суп из чечевицы" data-cal="280" data-protein="14" data-fat="4" data-carbs="45"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chickpea-salad.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/СалатНут.png" alt="Салат с нутом"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Салат с нутом и фетой</h3><p>Нут, огурцы, черри, фета, петрушка и лимонная заправка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Салат с нутом" data-cal="380" data-protein="15" data-fat="18" data-carbs="36"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <!-- 15 новых -->
+                            <a href="recipe-pages/chicken-noodle-soup.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/chicken-noodle.jpg" alt="Куриный суп"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Куриный суп с лапшой</h3><p>Куриное филе, лапша, морковь, лук, зелень.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Куриный суп с лапшой" data-cal="220" data-protein="16" data-fat="8" data-carbs="22"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/rice-shrimp-veg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/rice-shrimp.jpg" alt="Рис с креветками"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Рис с креветками и овощами</h3><p>Рис, креветки, перец, горошек, соевый соус.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Рис с креветками" data-cal="280" data-protein="22" data-fat="10" data-carbs="28"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/pasta-tuna.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/pasta-tuna.jpg" alt="Паста с тунцом"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Паста с тунцом</h3><p>Паста, тунец, помидоры, оливки, каперсы.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Паста с тунцом" data-cal="350" data-protein="24" data-fat="12" data-carbs="36"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/caesar-chicken.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/caesar.jpg" alt="Цезарь с курицей"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Салат Цезарь с курицей</h3><p>Куриное филе, салат романо, сухарики, пармезан, соус.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Цезарь с курицей" data-cal="310" data-protein="26" data-fat="18" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/borscht.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/borscht.jpg" alt="Борщ постный"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Борщ постный</h3><p>Свекла, капуста, картофель, морковь, томатная паста.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 40 мин</span><button class="add-btn" data-name="Борщ постный" data-cal="180" data-protein="8" data-fat="4" data-carbs="30"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/baked-potato-fish.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/potato-fish.jpg" alt="Картофель с рыбой"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Картофель запечённый с рыбой</h3><p>Картофель, филе рыбы, лук, сметана, сыр.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 40 мин</span><button class="add-btn" data-name="Картофель с рыбой" data-cal="320" data-protein="24" data-fat="16" data-carbs="24"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/couscous-veg-feta.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/couscous.jpg" alt="Кускус с овощами"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Кускус с овощами и фетой</h3><p>Кускус, кабачок, перец, помидоры, фета.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Кускус с овощами и фетой" data-cal="270" data-protein="10" data-fat="14" data-carbs="30"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/broccoli-soup.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/broccoli-soup.jpg" alt="Суп-пюре из брокколи"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Суп-пюре из брокколи</h3><p>Брокколи, картофель, лук, сливки, специи.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Суп-пюре из брокколи" data-cal="150" data-protein="6" data-fat="6" data-carbs="18"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/salmon-rolls.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/rolls.jpg" alt="Роллы с лососем"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Роллы с лососем (домашние)</h3><p>Рис, нори, лосось, огурец, авокадо.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Роллы с лососем" data-cal="240" data-protein="18" data-fat="10" data-carbs="24"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/quinoa-shrimp-avo.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/quinoa-shrimp.jpg" alt="Киноа с креветками"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Киноа с креветками и авокадо</h3><p>Киноа, креветки, авокадо, лимон, кинза.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Киноа с креветками" data-cal="290" data-protein="20" data-fat="14" data-carbs="26"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/cabbage-chicken.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/cabbage-chicken.jpg" alt="Тушёная капуста с курицей"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Тушёная капуста с курицей</h3><p>Капуста, куриное филе, морковь, томат.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 35 мин</span><button class="add-btn" data-name="Тушёная капуста с курицей" data-cal="210" data-protein="18" data-fat="8" data-carbs="20"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chickpea-sweetpotato.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/sweet-potato.jpg" alt="Рагу с нутом"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Рагу с нутом и сладким картофелем</h3><p>Нут, сладкий картофель, перец, лук, томаты.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Рагу с нутом и бататом" data-cal="260" data-protein="12" data-fat="8" data-carbs="36"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/tuna-steak-salad.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/tuna-steak.jpg" alt="Стейк тунца"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Стейк из тунца с салатом</h3><p>Тунец, рукола, помидоры черри, оливковое масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Стейк из тунца" data-cal="280" data-protein="30" data-fat="14" data-carbs="10"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/veg-curry-rice.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/curry.jpg" alt="Овощное карри"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Овощное карри с рисом</h3><p>Кокосовое молоко, карри, овощи (цветная капуста, перец, нут).</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Овощное карри" data-cal="300" data-protein="10" data-fat="10" data-carbs="44"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/falafel.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/falafel.jpg" alt="Фалафель"><span class="recipe-badge">Обед</span></div>
+                                <div class="recipe-content"><h3>Фалафель с лавашом и соусом</h3><p>Нут, лук, чеснок, кинза, лаваш, соус тахини.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Фалафель" data-cal="320" data-protein="14" data-fat="16" data-carbs="34"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ========== УЖИН (15 новых + старые) ========== -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span><i class="fas fa-moon"></i> Ужин</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </h3>
+                        <div class="recipe-grid">
+                            <!-- Старые 3 -->
+                            <a href="recipe-pages/baked-chicken-veg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/ЗапеченаяКурица.png" alt="Курица с овощами"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Запеченная курица с овощами</h3><p>Куриное филе, брокколи, сладкий перец, оливковое масло и травы.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 40 мин</span><button class="add-btn" data-name="Курица с овощами" data-cal="390" data-protein="38" data-fat="18" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/fish-veggies.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/РыбаФольга.png" alt="Рыба в фольге"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Рыба с овощами в фольге</h3><p>Филе белой рыбы, цукини, перец, лимон, оливковое масло и травы.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Рыба с овощами" data-cal="310" data-protein="30" data-fat="15" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/turkey-buckwheat.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/ИндейкаГречка.png" alt="Индейка с гречкой"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Тушёная индейка с гречкой</h3><p>Филе индейки, гречка, морковь, лук, томатная паста и специи.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 45 мин</span><button class="add-btn" data-name="Индейка с гречкой" data-cal="420" data-protein="36" data-fat="12" data-carbs="40"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <!-- 15 новых -->
+                            <a href="recipe-pages/chicken-potato.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/chicken-potato.jpg" alt="Курица с картофелем"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Запечённая курица с картофелем</h3><p>Курица, картофель, розмарин, чеснок, оливковое масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 45 мин</span><button class="add-btn" data-name="Курица с картофелем" data-cal="350" data-protein="30" data-fat="16" data-carbs="24"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/salmon-grill-veg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/salmon-grill.jpg" alt="Лосось на гриле"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Лосось с овощами на гриле</h3><p>Филе лосося, кабачок, перец, лимон, оливковое масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Лосось на гриле" data-cal="330" data-protein="28" data-fat="20" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/turkey-meatballs.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/turkey-meatballs.jpg" alt="Тефтели индейки"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Тефтели из индейки с гречкой</h3><p>Фарш индейки, гречка, лук, соус томатный.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 35 мин</span><button class="add-btn" data-name="Тефтели индейки" data-cal="310" data-protein="26" data-fat="14" data-carbs="28"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/tofu-veg-stew.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/tofu-stew.jpg" alt="Тушёные овощи с тофу"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Тушёные овощи с тофу</h3><p>Тофу, брокколи, перец, морковь, соевый соус.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Тушёные овощи с тофу" data-cal="220" data-protein="12" data-fat="12" data-carbs="20"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/fish-rice-broccoli.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/fish-rice.jpg" alt="Рыба с рисом"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Рыбное филе с рисом и брокколи</h3><p>Филе белой рыбы, рис, брокколи, лимон.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Рыба с рисом и брокколи" data-cal="290" data-protein="26" data-fat="12" data-carbs="24"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chicken-cutlets-puree.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/cutlets-puree.jpg" alt="Котлеты с пюре"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Куриные котлеты с пюре</h3><p>Фарш куриный, картофель, молоко, сливочное масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 35 мин</span><button class="add-btn" data-name="Куриные котлеты с пюре" data-cal="340" data-protein="28" data-fat="18" data-carbs="22"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/veg-stew-beans.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/bean-stew.jpg" alt="Овощное рагу с фасолью"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Овощное рагу с фасолью</h3><p>Фасоль, кабачок, перец, томаты, лук.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Овощное рагу с фасолью" data-cal="240" data-protein="14" data-fat="8" data-carbs="34"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/turkey-steak-salad.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/turkey-steak.jpg" alt="Стейк индейки"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Стейк из индейки с салатом</h3><p>Индейка, рукола, помидоры, оливковое масло.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 20 мин</span><button class="add-btn" data-name="Стейк индейки с салатом" data-cal="280" data-protein="32" data-fat="12" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/baked-fish-lemon.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/fish-lemon.jpg" alt="Рыба с лимоном"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Запечённая рыба с лимоном</h3><p>Филе рыбы, лимон, чеснок, петрушка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Запечённая рыба с лимоном" data-cal="260" data-protein="28" data-fat="14" data-carbs="6"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chicken-french.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/chicken-french.jpg" alt="Курица по-французски"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Курица по-французски</h3><p>Куриное филе, картофель, лук, сыр, сметана.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 45 мин</span><button class="add-btn" data-name="Курица по-французски" data-cal="360" data-protein="30" data-fat="20" data-carbs="18"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/ratatouille-quinoa.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/ratatouille.jpg" alt="Рататуй"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Рататуй с киноа</h3><p>Кабачок, баклажан, перец, томаты, киноа.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 30 мин</span><button class="add-btn" data-name="Рататуй с киноа" data-cal="250" data-protein="10" data-fat="12" data-carbs="30"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/chicken-roulade-cheese.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/roulade.jpg" alt="Куриные рулетики"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Куриные рулетики с сыром</h3><p>Куриное филе, сыр, зелень, чеснок, панировка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 35 мин</span><button class="add-btn" data-name="Куриные рулетики с сыром" data-cal="320" data-protein="30" data-fat="18" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/salmon-soy-rice.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/salmon-soy.jpg" alt="Лосось в соевом"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Лосось в соевом соусе с рисом</h3><p>Филе лосося, соевый соус, имбирь, чеснок, рис.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 25 мин</span><button class="add-btn" data-name="Лосось в соевом соусе" data-cal="340" data-protein="28" data-fat="18" data-carbs="26"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/beef-stew-veg.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/beef-stew.jpg" alt="Тушёная говядина"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Тушёная говядина с овощами</h3><p>Говядина, лук, морковь, томаты, специи.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 50 мин</span><button class="add-btn" data-name="Тушёная говядина" data-cal="350" data-protein="28" data-fat="20" data-carbs="16"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/baked-mintai-potato.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/mintai-potato.jpg" alt="Минтай с картошкой"><span class="recipe-badge">Ужин</span></div>
+                                <div class="recipe-content"><h3>Запечённый минтай с картошкой</h3><p>Минтай, картофель, лук, сметана, сыр.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 40 мин</span><button class="add-btn" data-name="Минтай с картошкой" data-cal="280" data-protein="24" data-fat="12" data-carbs="24"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- ========== ПЕРЕКУС (15 новых + старые) ========== -->
+                    <div class="category-section">
+                        <h3 class="category-title">
+                            <span><i class="fas fa-apple-alt"></i> Перекус</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </h3>
+                        <div class="recipe-grid">
+                            <!-- Старые 2 -->
+                            <a href="recipe-pages/energy-balls.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/Шарики.png" alt="Энергетические шарики"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Энергетические шарики</h3><p>Финики, грецкие орехи, какао, кокосовая стружка без выпечки.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 10 мин</span><button class="add-btn" data-name="Энергошарики" data-cal="95" data-protein="2" data-fat="5" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/cottage-cheese-casserole.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/Запеканка.jpg" alt="Творожная запеканка"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Творожная запеканка</h3><p>Нежный творог, яйцо, банан, ваниль — без сахара и муки.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 35 мин</span><button class="add-btn" data-name="Творожная запеканка" data-cal="210" data-protein="18" data-fat="9" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <!-- 15 новых -->
+                            <a href="recipe-pages/apple-nut-butter.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/apple-nut.jpg" alt="Яблоко с ореховой пастой"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Яблоко с ореховой пастой</h3><p>Яблоко, арахисовая или миндальная паста.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Яблоко с ореховой пастой" data-cal="150" data-protein="4" data-fat="8" data-carbs="16"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/cottage-cheese-berries.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/cottage-berries.jpg" alt="Творожный десерт"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Творожный десерт с ягодами</h3><p>Творог, йогурт, ягоды, мёд.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Творожный десерт с ягодами" data-cal="180" data-protein="14" data-fat="8" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/banana-spinach-smoothie.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/banana-spinach.jpg" alt="Смузи банан-шпинат"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Смузи с бананом и шпинатом</h3><p>Банан, шпинат, молоко, семена льна.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Смузи банан-шпинат" data-cal="160" data-protein="4" data-fat="4" data-carbs="30"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/nuts-dried-fruits.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/nuts.jpg" alt="Орехи и сухофрукты"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Орехи и сухофрукты</h3><p>Грецкие орехи, миндаль, изюм, курага.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 2 мин</span><button class="add-btn" data-name="Орехи и сухофрукты" data-cal="200" data-protein="6" data-fat="14" data-carbs="16"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/cucumber-hummus.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/cucumber-hummus.jpg" alt="Огурец с хумусом"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Ломтики огурца с хумусом</h3><p>Огурец, хумус, паприка.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Огурец с хумусом" data-cal="90" data-protein="4" data-fat="6" data-carbs="8"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/kefir-bran.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/kefir-bran.jpg" alt="Кефир с отрубями"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Кефир с отрубями</h3><p>Кефир, отруби, ягоды.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 2 мин</span><button class="add-btn" data-name="Кефир с отрубями" data-cal="120" data-protein="8" data-fat="4" data-carbs="14"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/fruit-salad-yogurt.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/fruit-salad.jpg" alt="Фруктовый салат"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Фруктовый салат с йогуртом</h3><p>Яблоко, груша, виноград, йогурт.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Фруктовый салат с йогуртом" data-cal="160" data-protein="4" data-fat="4" data-carbs="32"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/granola-bar.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/granola-bar.jpg" alt="Гранола-батончик"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Гранола-батончик</h3><p>Овсяные хлопья, мёд, орехи, сухофрукты.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 2 мин</span><button class="add-btn" data-name="Гранола-батончик" data-cal="180" data-protein="6" data-fat="10" data-carbs="18"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/raw-veg-dip.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/veg-dip.jpg" alt="Овощи с соусом"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Сырые овощи с соусом</h3><p>Морковь, сельдерей, перец, йогуртовый соус.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Овощи с соусом" data-cal="100" data-protein="4" data-fat="6" data-carbs="10"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/protein-shake.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/protein-shake.jpg" alt="Протеиновый коктейль"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Протеиновый коктейль</h3><p>Протеиновый порошок, молоко, банан, ягоды.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Протеиновый коктейль" data-cal="150" data-protein="20" data-fat="4" data-carbs="10"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/oat-cookie-banana.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/oat-cookie.jpg" alt="Овсяное печенье"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Овсяное печенье с бананом</h3><p>Овсяные хлопья, банан, орехи, корица.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 15 мин</span><button class="add-btn" data-name="Овсяное печенье" data-cal="170" data-protein="6" data-fat="8" data-carbs="22"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/carrot-nut-butter.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/carrot-nut.jpg" alt="Морковь с ореховым маслом"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Морковные палочки с ореховым маслом</h3><p>Морковь, арахисовая паста, семена кунжута.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Морковь с ореховым маслом" data-cal="140" data-protein="4" data-fat="10" data-carbs="12"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/smoothie-bowl-berries.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/smoothie-bowl.jpg" alt="Смузи-боул"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Смузи-боул с ягодами</h3><p>Замороженные ягоды, банан, миндальное молоко, гранола.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Смузи-боул с ягодами" data-cal="200" data-protein="6" data-fat="6" data-carbs="34"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/avocado-toast-salmon.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/avocado-salmon-toast.jpg" alt="Тост с авокадо и семгой"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Тост с авокадо и семгой</h3><p>Хлеб, авокадо, слабосолёная семга, лимон.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 5 мин</span><button class="add-btn" data-name="Тост с авокадо и семгой" data-cal="190" data-protein="12" data-fat="14" data-carbs="10"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                            <a href="recipe-pages/yogurt-muesli.html" class="recipe-card">
+                                <div class="recipe-img"><img src="../Vitalafe/recipe-pages/images-recipe/yogurt-muesli.jpg" alt="Йогурт с мюсли"><span class="recipe-badge">Перекус</span></div>
+                                <div class="recipe-content"><h3>Йогурт с мюсли</h3><p>Натуральный йогурт, мюсли, фрукты.</p><div class="meta"><span style="color:#2e7d64;"><i class="far fa-clock"></i> 3 мин</span><button class="add-btn" data-name="Йогурт с мюсли" data-cal="210" data-protein="8" data-fat="8" data-carbs="28"><i class="fas fa-plus"></i> Добавить</button></div></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- БОКОВОЙ КАЛЬКУЛЯТОР -->
+                <aside class="recipes-sidebar">
+                    <h3><i class="fas fa-calculator"></i> Калькулятор</h3>
+                    <p style="color:#5a6e6e; font-size:0.9rem;">Выбранные блюда:</p>
+                    <ul id="selected-list" class="selected-list">
+                        <li style="color:#999; font-style:italic; text-align:center; list-style:none;">Пока ничего не выбрано</li>
+                    </ul>
+                    <div class="total">
+                        <p><span>Калории:</span> <span id="total-cal" class="total-cal">0</span> ккал</p>
+                        <p><span>🥩 Белки:</span> <span id="total-protein">0</span> г</p>
+                        <p><span>🧈 Жиры:</span> <span id="total-fat">0</span> г</p>
+                        <p><span>🍚 Углеводы:</span> <span id="total-carbs">0</span> г</p>
+                        <button id="clear-btn" class="clear-btn"><i class="fas fa-trash-alt"></i> Очистить всё</button>
+                    </div>
+                </aside>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p style="margin-top:0.5rem;">Любите себя и своё тело ❤️</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="calculator.js"></script>
+</body>
+</html>
